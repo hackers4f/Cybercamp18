@@ -21,7 +21,7 @@ numPar="$#"
 if [ $numPar != 2 ]
 then
 	echo "Error"
-	echo "Usage: ./brute.sh file.pgp wordlist"
+	echo "Usage: $0 file.pgp wordlist"
 	exit
 fi
 
