@@ -69,3 +69,4 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
     i=$((i +1))       
     sleep 0.05
 done < $2
+
